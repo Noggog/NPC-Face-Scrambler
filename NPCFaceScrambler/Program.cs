@@ -173,7 +173,7 @@ namespace NPCFaceScrambler
                         }
 
 
-                        string npcName = npc.Name!.ToString() ?? "test";
+                        string npcName = npc.Name?.ToString() ?? "test";
 
                         if (npcName.Contains("test"))
                         {
